@@ -15,6 +15,7 @@
 		D2E655C12324404B000F61DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E655C02324404B000F61DF /* main.m */; };
 		D2E655CB2324404B000F61DF /* lab1_YUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E655CA2324404B000F61DF /* lab1_YUTests.m */; };
 		D2E655D62324404B000F61DF /* lab1_YUUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E655D52324404B000F61DF /* lab1_YUUITests.m */; };
+		D2E655E423245234000F61DF /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = D2E655E323245234000F61DF /* Resource */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D2E655D12324404B000F61DF /* lab1_YUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab1_YUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E655D52324404B000F61DF /* lab1_YUUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lab1_YUUITests.m; sourceTree = "<group>"; };
 		D2E655D72324404B000F61DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E655E323245234000F61DF /* Resource */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resource; path = lab1_YU/Resource; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		D2E655A523244049000F61DF = {
 			isa = PBXGroup;
 			children = (
+				D2E655E323245234000F61DF /* Resource */,
 				D2E655B02324404A000F61DF /* lab1_YU */,
 				D2E655C92324404B000F61DF /* lab1_YUTests */,
 				D2E655D42324404B000F61DF /* lab1_YUUITests */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E655E423245234000F61DF /* Resource in Resources */,
 				D2E655BE2324404B000F61DF /* LaunchScreen.storyboard in Resources */,
 				D2E655BB2324404B000F61DF /* Assets.xcassets in Resources */,
 				D2E655B92324404A000F61DF /* Main.storyboard in Resources */,

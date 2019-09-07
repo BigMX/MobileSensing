@@ -9,11 +9,13 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageview;
 
 @end
 
 @implementation ViewController
 
+let file= "Resource."
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
